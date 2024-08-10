@@ -21,7 +21,7 @@ Header.defaultProps = {
   textColor: "#ff6a95",
 }
 
-Header.PropTypes = {
+Header.propTypes = {
   text: PropTypes.string,
   bgColor: PropTypes.string,
   textColor: PropTypes.string,
