@@ -7,10 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 5000",
+    "dev1": "concurrently \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
+    "concurrently": "^8.2.2",
     "framer-motion": "^4.1.17",
+    "json-server": "^1.0.0-beta.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
